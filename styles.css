@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat&display=swap');
+* {
+    margin:auto;
+    padding:auto;
+    box-sizing:border-box;
+    font-family:'Montserrat';
+    width: 95vw;
+    font-size: 15px;
+    
+    
+}
+body {
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+#doggo-ipsum-shoutout{
+    font-style:italic;
+}
+
+.italic-paragraph{
+    font-style:italic;
+    color:slategray;
+}
+
+#image-section {
+    background-color: antiquewhite;
+}
+
+#image-section img {
+    width: 40%;
+    min-width: 200px;
+    border-radius: 5%;
+    border-color:black;
+    border: 10px solid bisque;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+#main-title {
+    text-align: center;
+    padding: 30px;
+    font-size: 92px;
+    font-family: 'Lilita One';
+}
+
+#list-section {
+    background-color: antiquewhite;
+    
+}
+
+h2, h3 {
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Lilita One'
+}
+
+h2 {
+    font-size: 38px;
+}
+
+#code-block {
+    background-color: bisque;
+    width: 20vw;
+}
+
+.list-wrapper{
+    width: 20vw;
+    list-style-position: outside;
+}
+
+br {
+    margin: 10px;
+}
+
+a {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul {
+    color:coral;
+}
+
+ol {
+    color:indianred;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+
+.item {
+    margin: 20px 80px 10px 80px;
+}
+
+
